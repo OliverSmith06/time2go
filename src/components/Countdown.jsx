@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const TARGET_DATE = new Date("2026-04-03T18:50:00+08:00");
+const TARGET_DATE = new Date("2026-04-03T00:00:00+08:00");
 
 function getTimeLeft() {
   const now = Date.now();
@@ -48,7 +48,7 @@ export default function Countdown() {
 
   return (
     <div className="countdown">
-      <div className="countdown-label">We'll be together in just...</div>
+      <div className="countdown-label">Last sweet dreams apart...</div>
       <div className="countdown-timer">
         {units.map((unit, i) => (
           <div className="countdown-unit" key={unit.label}>
