@@ -48,7 +48,7 @@ export default function Countdown() {
 
   return (
     <div className="countdown">
-      <div className="countdown-label">Sanya in...</div>
+      <div className="countdown-label">We'll be together in just...</div>
       <div className="countdown-timer">
         {units.map((unit, i) => (
           <div className="countdown-unit" key={unit.label}>
